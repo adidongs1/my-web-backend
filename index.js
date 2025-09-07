@@ -38,10 +38,10 @@ app.get("/", (req, res) => {
   res.send("Backend is running!...");
 });
 
-// Endpoint API example
-// app.get("/api/hello", (req, res) => {
-//   res.json({ message: "Hello from backend!" });
-// });
+//Endpoint API example
+app.get("/api/hello", (req, res) => {
+  res.json({ message: "Hello from backend!" });
+});
 
 // API
 
